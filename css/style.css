@@ -3,7 +3,7 @@
   --bcg-btn: #f4f4fd;
 }
 
-.body {
+body {
   font-family: 'Roboto', sans-serif;
   color: var(--white, #fff);
   text-decoration: none;
