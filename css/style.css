@@ -2,15 +2,15 @@
   --text-btn-color: #4d5ae5;
   --bcg-btn: #f4f4fd;
   --text: #434455 ; 
-  --black-background: #ffffff; 
+  --background: #ffffff; 
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: var(black-background);
-  color: var(--text);
   text-decoration: none;
-}
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background );
+  color: var(--text);
+  }
 
 /* main-page */
 
