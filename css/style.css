@@ -1,38 +1,43 @@
 :root {
   --text-btn-color: #4d5ae5;
   --bcg-btn: #f4f4fd;
-  --text: #434455 ; 
-  --background: #ffffff; 
+  --text: #434455;
+  --background: #ffffff;
 }
 
 body {
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  background-color: var(--background );
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background);
   color: var(--text);
-  }
+}
+button {
+  color: inherit;
+  cursor: pointer;
+  border: none;
+}
 
 /* main-page */
 
 .logo {
   text-decoration: none;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  }
+}
 
 .link {
   text-decoration: none;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .logo-span-header {
   color: #2e2f42;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .nav-items {
@@ -61,7 +66,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .address-info:hover,
@@ -83,13 +88,11 @@ body {
 
 .btn-banner {
   background-color: #4d5ae5;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color:var(--text);
-  cursor: pointer;
 }
 
 .btn-banner:hover,
@@ -101,7 +104,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color:var(--text);
+  color: #2e2f42;
   letter-spacing: 0.02em;
 }
 
@@ -140,16 +143,16 @@ body {
 
 .footer .logo-span-footer {
   color: #f4f4fd;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .footer .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /* portfolio */
 .portfolio-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
