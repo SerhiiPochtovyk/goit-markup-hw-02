@@ -1,11 +1,14 @@
 :root {
   --text-btn-color: #4d5ae5;
   --bcg-btn: #f4f4fd;
+  --text: #434455 ; 
+  --black-background: #fff; 
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--white, #fff);
+  background-color: var(black-background);
+  color: var(--text);
   text-decoration: none;
 }
 
@@ -85,7 +88,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color:var(--text);
   cursor: pointer;
 }
 
@@ -98,7 +101,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
+  color:var(--text);
   letter-spacing: 0.02em;
 }
 
